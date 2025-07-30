@@ -1,20 +1,20 @@
 package task1;
 
 // 1. Content Coupled Module
-class ContentCoupledModule {
-    public int data = 10;
-}
-
-// 2. Common Coupling Shared Class
-class Common {
-    public static int sharedValue = 42;
-}
-
-// 4. Stamp Coupling Data Class
-class StampData {
-    int x = 5;
-    int y = 10;
-}
+//class ContentCoupledModule {
+//    public int data = 10;
+//}
+//
+//// 2. Common Coupling Shared Class
+//class Common {
+//    public static int sharedValue = 42;
+//}
+//
+//// 4. Stamp Coupling Data Class
+//class StampData {
+//    int x = 5;
+//    int y = 10;
+//}
 
 // Main Class Demonstrating Coupling
 public class LibCoupling {
