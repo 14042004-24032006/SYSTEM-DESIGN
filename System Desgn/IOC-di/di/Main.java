@@ -10,6 +10,12 @@ public class Main {
  		MessageService  service=new Email();
  		NoificationSender notNoificationSender=new NoificationSender(service);
  		notNoificationSender.notifyUser("Email is sent ! !");
+ 		
+ 		//2.setter injection
+ 		MessageService service1=new Email();
+ 		NoificationSender sender=new NoificationSender(null);
+ 		sender.setMessageService(service1);
+ 		sender.notifyUser("Email sent using Setter Injection!");
  	}
 
 }

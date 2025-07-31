@@ -11,6 +11,13 @@ public class NoificationSender {
 		this.messageService=service;
 		
 	}
+	
+	//setter Injection
+	
+	public void setMessageService(MessageService service) {
+		this.messageService=service;
+	}
+	
 	public void notifyUser(String msg)
 	{
 		messageService.sendMessage(msg);
