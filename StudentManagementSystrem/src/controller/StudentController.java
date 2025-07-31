@@ -2,6 +2,8 @@ package controller;
 
 import java.util.List;
 
+import javax.swing.table.TableStringConverter;
+
 import model.Student;
 import service.StudentService;
 
@@ -33,6 +35,17 @@ public class StudentController {
 		{
 			System.out.println(student);
 		}
+	}
+	
+	public static void main(String args[])
+	{
+		StudentController controller = new StudentController();
+		
+		controller.createStudent(114,"poova", "23S114", "CSE");
+		controller.createStudent(113,"pojana", "23S113", "CSE");
+		controller.createStudent(313,"Susiya", "23S313", "NEPAL");
+		
+		controller.displayAllStudent();
 	}
 
 }
