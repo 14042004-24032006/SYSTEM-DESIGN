@@ -6,3 +6,9 @@ could lead to conflicts like writing simultaneously,unnecessary memory usage etc
 Imagine you are performing employee management related task and you want to perform all CRUD operation.Creating multiple
 JDBC or connection to database instance could lead to performing these operation at multiple times eventually there is lot of database usage increase
 load on server etc
+
+
+Factory Pattern
+Problem Statement:
+or settings, the app should able to dynamically decide whether to send via WhatsApp, Email, SMS, or push notification
+Suppose you are building an app that sends the notification of different kind based on user device 
