@@ -29,3 +29,5 @@ after adding all products they to proceed for checkout and choosing paymants(Sev
 payment: ie. COD, Credit card, UPI etc). According comfort user will choose payment
 method.
 
+
+
